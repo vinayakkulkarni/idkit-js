@@ -13,6 +13,7 @@ const banner = `/*!
 
 export default defineConfig({
   build: {
+    outDir: 'build',
     target: 'esnext',
     sourcemap: true,
     reportCompressedSize: true,
@@ -30,9 +31,7 @@ export default defineConfig({
       include: 'node_modules/**',
     },
     rollupOptions: {
-      external: [
-        'vue',
-      ],
+      external: ['vue'],
       output: {
         banner,
         exports: 'named',

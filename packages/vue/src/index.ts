@@ -1,4 +1,4 @@
-import VClappr from './components/IdKit.vue';
+import IdKitWidget from './components/IdKitWidget.vue';
 
-// export { default } from './install';
-export { VClappr };
+export { default } from './install';
+export { IdKitWidget };
